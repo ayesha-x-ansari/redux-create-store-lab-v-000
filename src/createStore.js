@@ -13,7 +13,7 @@ export default function createStore(reducer) {
    dispatch({type: '@@init'})
 
    return{dispatch,
-    getstate}
+    getState}
 }
 
 function render() {
