@@ -2,7 +2,7 @@ export default function createStore(reducer) {
   // add your code here
   let state;
 
-  function dispath (reducer){
+  function dispatch (reducer){
     state = reducer(state, action)
       render()
     }
