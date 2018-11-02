@@ -6,7 +6,7 @@ export default function createStore(reducer) {
     state = reducer(state, action)
       render()
     }
-  function getstate(){
+  function getState(){
     return state;
    }
 
